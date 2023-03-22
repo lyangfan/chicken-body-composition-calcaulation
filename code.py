@@ -93,3 +93,7 @@ def main():
     print("individual 1's abdominal fat volume is {}".format(calculate_vol_using_label(individual_1_dicom_folder, individual_1_label_abdominal_fat, abdominal_id)))
     print("individual 2's body volume is {}".format(calculate_vol_using_label(individual_2_dicom_folder, individual_2_label_body, body_id)))
     print("individual 2's abdominal fat volume is {}".format(calculate_vol_using_label(individual_2_dicom_folder, individual_2_label_abdominal_fat, abdominal_id)))
+    
+ 
+if __name__ == '__main__':
+    main()
